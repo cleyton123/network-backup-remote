@@ -39,7 +39,9 @@ O script Bash criado realiza as seguintes ações:
 
   * Após desconectar do servidor, o script foi executado na máquina local com sucesso.
 
-    **Verificação do Backup no Servidor**
+**4.Verificação do Backup no Servidor**
+
+![Untitled design](https://github.com/user-attachments/assets/84026a78-d445-4271-a674-e56705f5a040)
 
     * Reacessando o servidor via ssh, é possível verificar a criação de uma pasta com o nome baseado no timestamp (ex.: backup_2024-11-21_14-24-25).
     * Dentro dessa pasta, encontram-se as mesmas estruturas de diretórios e arquivos presentes no diretório local.

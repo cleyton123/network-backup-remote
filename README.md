@@ -37,16 +37,16 @@ O script Bash criado realiza as seguintes ações:
 
   **Execução do Script**
 
-  * Após desconectar do servidor, o script foi executado na máquina local com sucesso.
+* Após desconectar do servidor, o script foi executado na máquina local com sucesso.
 
 **4.Verificação do Backup no Servidor**
 
 ![Untitled design](https://github.com/user-attachments/assets/84026a78-d445-4271-a674-e56705f5a040)
 
-    * Reacessando o servidor via ssh, é possível verificar a criação de uma pasta com o nome baseado no timestamp (ex.: backup_2024-11-21_14-24-25).
-    * Dentro dessa pasta, encontram-se as mesmas estruturas de diretórios e arquivos presentes no diretório local.
+* Reacessando o servidor via ssh, é possível verificar a criação de uma pasta com o nome baseado no timestamp (ex.: backup_2024-11-21_14-24-25).
+* Dentro dessa pasta, encontram-se as mesmas estruturas de diretórios e arquivos presentes no diretório local.
 
-    **Conclusão**
+**Conclusão**
 
 Com base nos resultados apresentados, o script de backup remoto está funcionando corretamente, automatizando a criação de backups organizados e seguros no servidor remoto.
 O uso de ferramentas como rsync e ssh garante eficiência, confiabilidade e facilidade de manutenção para o processo.
